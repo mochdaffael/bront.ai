@@ -1,0 +1,26 @@
+bront-ai/
+├── frontend/  # Next.js app
+│   ├── components/  # Reusable UI components
+│   ├── pages/  # Next.js pages
+│   ├── styles/  # Tailwind config
+│   ├── utils/  # Helpers (e.g., API calls)
+│   ├── public/  # Static assets (logo, demo video)
+│   ├── package.json
+│   └── next.config.js
+├── backend/  # Node.js/Express + Python/FastAPI
+│   ├── express/  # General API
+│   │   ├── routes/
+│   │   ├── middleware/
+│   │   ├── models/  # Mongoose schemas
+│   │   ├── package.json
+│   │   └── server.js
+│   ├── fastapi/  # AI service
+│   │   ├── ai_tasks/  # AI logic
+│   │   ├── requirements.txt
+│   │   └── main.py
+│   └── shared/  # Shared configs (e.g., DB connection)
+├── database/  # MongoDB schemas
+├── docker/  # Dockerfiles
+├── docs/  # Documentation
+├── tests/  # Unit tests
+└── README.md
